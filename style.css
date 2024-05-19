@@ -80,7 +80,7 @@ body::before {
     width: 100%;
 }
 .button {
-    background-color: lightgreen;
+    background-color: green;
     padding: 10px 20px;
     font-size: 18px;
     font-weight: 600;
