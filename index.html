@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="container">
+        <h2>Sat,June 1, 10:00PM</h2>
+      <div class="card">
+        <div class="logo-container">
+          <img src="images/logo1.svg" class="logo" />
+          <div class="team-name">Borussia Dortmund</div>
+        </div>
+        <p class="score" id="score1">0</p>
+        <div class="vs">VS</div>
+        <p class="score" id="score2">0</p>
+        <div class="logo-c">
+          <img src="images/logo2.webp" class="logo" />
+          <div class="team-name">Real Madrid</div>
+        </div>
+      </div>
+      <div class="btn-c">
+        <div class="btn1">
+          <button onclick="goal1()" class="button">+</button>
+          <button onclick="remove1()" class="button button-delete">-</button>
+        </div>
+        <p class="final">Final</p>
+        <div class="btn2">
+          <button onclick="goal2()" class="button">+</button>
+          <button onclick="remove2()" class="button button-delete">-</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
