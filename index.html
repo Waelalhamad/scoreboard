@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Scoreboard | By Wael Al Hamad</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="custom-alert" class="custom-alert">
+      <span id="alert-message"></span>
+    </div>
 
     <div class="container">
-        <h2>Sat,June 1, 10:00PM</h2>
+      <h2 id="time" class="time">00:00</h2>
       <div class="card">
         <div class="logo-container">
           <img src="images/logo1.svg" class="logo" />
@@ -35,6 +38,13 @@
         </div>
       </div>
     </div>
+    <div class="time-controll">
+      <button onclick="start()" class="button start">Start the match</button>
+      <button onclick="pause()" class="button button-delete puase">
+        Puase the match
+      </button>
+    </div>
+    <button onclick="reset()" class="button reset">Reset</button>
 
     <script src="script.js"></script>
   </body>
