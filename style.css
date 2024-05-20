@@ -178,7 +178,7 @@ h2{
   }
 
   .btn-c {
-    flex-direction: column;
+    display:flex;
   }
 
   .btn1, .btn2 {
