@@ -144,8 +144,7 @@ h2{
 
 @media only screen and (max-width: 768px) {
   body {
-    background-image: none;
-    background-color: black;
+    background-image: url('images/Phone.jpeg');
   }
 
   .container {
