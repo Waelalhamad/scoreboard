@@ -141,3 +141,58 @@ h2{
     align-items: center;
     z-index: 3;
   }
+
+/* Media query for screens with max width of 768px (typical for mobile devices) */
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: none;
+    background-color: black;
+  }
+
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    background-color: transparent;
+  }
+
+  .card {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .score {
+    font-size: 50px;
+  }
+
+  .vs {
+    font-size: 24px;
+  }
+
+  .btn-c {
+    flex-direction: column;
+  }
+
+  .btn1, .btn2 {
+    margin: 10px 0;
+  }
+
+  .final {
+    font-size: 24px;
+  }
+
+  .time-controll {
+    flex-direction: column;
+  }
+
+  .start, .puase, .reset {
+    margin: 10px 0;
+    width: 90%;
+  }
+}
