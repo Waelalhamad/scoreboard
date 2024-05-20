@@ -141,7 +141,7 @@ h2{
     align-items: center;
     z-index: 3;
   }
-/* Media query for screens with max width of 768px (typical for mobile devices) */
+
 @media only screen and (max-width: 768px) {
   body {
     background-image: none;
@@ -157,6 +157,7 @@ h2{
   }
 
   .card {
+    display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -194,6 +195,6 @@ h2{
 
   .start, .puase, .reset {
     margin: 10px 0;
-    width: 90%;
+    width: 80%;
   }
 }
