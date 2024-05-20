@@ -141,7 +141,6 @@ h2{
     align-items: center;
     z-index: 3;
   }
-
 /* Media query for screens with max width of 768px (typical for mobile devices) */
 @media only screen and (max-width: 768px) {
   body {
@@ -158,21 +157,28 @@ h2{
   }
 
   .card {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     padding: 0;
   }
 
   .logo {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo-container, .logo-c {
+    flex-direction: column;
+    align-items: center;
   }
 
   .score {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .vs {
     font-size: 24px;
+    align-self: center;
   }
 
   .btn-c {
