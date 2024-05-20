@@ -164,6 +164,10 @@ h2{
     padding: 0;
   }
 
+  .btn-c {
+    justify-content: space-around;
+  }
+
   .logo {
     width: 60px;
     height: 60px;
